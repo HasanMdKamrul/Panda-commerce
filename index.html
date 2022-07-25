@@ -361,13 +361,65 @@
               />
             </div>
 
-            <button type="submit" class="btn panda-button">Submit</button>
+            <button class="btn panda-button">Submit</button>
           </form>
         </div>
       </section>
       <!-- Subscribe Ends -->
     </main>
     <!-- ** Product catagories Ends ** -->
+
+    <!-- ** Modal Practice -->
+
+    <section class="container">
+      <div
+        class="row d-flex justify-content-center align-items-center panda-bg"
+        style="height: 300px"
+      >
+        <div class="col-lg-8 col-sm-12 col-md-6 text-center">
+          <h1>Register Here</h1>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-6">
+          <button
+            class="panda-button"
+            data-bs-toggle="modal"
+            data-bs-target="#reg-modal"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" id="reg-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Registration Here</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Register for Panda commerce.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ** Footer Section Starts ** -->
     <footer class="text-center">
